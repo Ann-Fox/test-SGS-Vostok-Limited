@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGS Vostok Limited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <form id="productionForm">
+            <div class="group">
+                <label for="city">Город:</label>
+                <select id="city" name="city">
+                    <option value="">Выберите город</option>
+                    <option value="Moscow">Москва</option>
+                    <option value="Perm">Пермь</option>
+                    <option value="Kazan">Казань</option>
+                </select>
+            </div>
+            <div class="group">
+                <label for="workshop">Цех:</label>
+                <select id="workshop" name="workshop">
+                    <option value="">Выберите цех</option>
+                </select>
+            </div>
+            <div class="group">
+                <label for="coworker">Сотрудник:</label>
+                <select id="coworker" name="coworker">
+                    <option value="">Выберите сотрудника</option>
+                </select>
+            </div>
+            <div class="group">
+                <label for="brigade">Бригада:</label>
+                <select id="brigade" name="brigade">
+                    <option value="brigade1">Бригада 1</option>
+                    <option value="brigade2">Бригада 2</option>
+                </select>
+            </div>
+            <div class="group">
+                <label for="shift">Смена:</label>
+                <select id="shift" name="shift">
+                    <option value="shift1">Смена 1</option>
+                    <option value="shift2">Смена 2</option>
+                </select>
+            </div>
+
+            <button type="submit">Сохранить</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
